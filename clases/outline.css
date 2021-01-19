@@ -1,0 +1,21 @@
+.img-box{
+width: 93%;
+margin: 2em auto;
+border: 1em solid red;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.img{
+    border: 5px solid darkblue;
+    outline: 5px solid darkblue;
+    outline-offset: -45px;
+}
+
+.text{
+    position: absolute;
+    color: gray;
+    font-size: 3em;
+}

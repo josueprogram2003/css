@@ -1,0 +1,10 @@
+.inline{
+    background: lime;
+    display: none;
+    height: 400px;
+    margin-bottom: 2em;
+}
+
+.block{
+    background: yellow;
+}

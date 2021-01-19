@@ -1,0 +1,112 @@
+/* selector de etiqueta */
+/* h1{
+    color: blue;
+} */
+
+/* p{
+    color: red;
+} */
+
+/* selectores de clases*/
+
+/* .title{
+    color: green;
+} */
+
+/* .text{
+    color: lightcoral;
+} */
+
+/*selectores de id*/
+
+/* #title{
+    color: aqua;
+} */
+
+/* #text{
+    color: blue;
+} */
+
+
+
+/* Selectores Universales pone color rojo a todos los elementos dell html */
+
+/* 
+*{
+    color: red;
+}
+ */
+
+/* Selectores de Atributos */
+/* Seleccionar los elementos que tienen ese atributo y ese valor*/
+[href="#"]{
+    color: green;
+}
+
+[href]{
+    color: green;
+}
+
+/* Selecciona los elementos que tienen ese atributo al menos ese valor una vez */
+[class ~= "verde"]{
+    color: blue;
+}
+
+/* Selecciona los elementos que tienen ese atributo al menos ese valor una vez */
+[class |= "verde"]{
+    color: lightblue;
+}
+
+/* Seleccionar los elementos que tienen ese atributo y empiezan con ese valor */
+
+[class ^= "rojo"]{
+    color: orangered;
+} 
+/* Seleccionar los elementos que tienen ese atributo y terminan con ese valor */
+
+[class $= "rojo"]{
+    color: brown;
+} 
+
+/* Seleccionar los elementos que tienen ese atributo y que contengan  ese valor */
+
+[class *= "rojo"]{
+    color : forestgreen;
+} 
+
+/* Selectores combinadores */
+
+/* Selector de hermano adyacente */
+
+/* Selecciona al hermano que este justo por debajo de el. El estilo se aplica al hermano inferior */
+h1+h2{
+    color: peru;
+}
+
+h2 + h2 {
+    color: firebrick;
+}
+
+/* selector de hermano general */
+
+/* Seleciona todos los hermanos que este por debajo de el. El estilo se aplica a todos los hermanos */
+h1 ~ h3{
+    color: blueviolet;
+}
+
+/* selectores descendentes */
+
+/* Selecciona a todos o hijos. El estilo se aplica a todos los hijos*/
+
+/* div span{
+    color:chocolate;
+} */
+
+/* selector de hijo directo */
+
+/* Selecciona todos los hijos que sean directos, es decir que no esten dentro de otras etiquetas  */
+
+ p > span{
+    color: blue;
+} 
+

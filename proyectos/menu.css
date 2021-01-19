@@ -1,0 +1,38 @@
+body{
+    margin:auto;
+}
+
+.header{
+    position: relative;
+    border: 1px solid red;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+}
+
+.header__nav__ul{
+    position: fixed;
+    display: flex;
+}
+
+.header__nav__link{
+    border: 2px solid red;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px; 
+    text-transform: uppercase;
+
+}
+
+.header__nav__link:hover{
+    background: red;
+    color: white;
+}
+
+.title{
+    
+}
+

@@ -1,0 +1,47 @@
+/* Font = fuente    
+    size = tamaño */
+/*     
+p{
+    color:orangered;
+    font-size: 1.5em;
+} */
+
+/* Con inherit le digo a css que le coloque el color de elemento padre
+inherit = heredar */
+
+/* a{
+    color: inherit ;
+} */
+
+/* 
+    Etiqueta -> 1
+    clases y pseudoclases -> 10
+    id ->100
+    Estilo en Linea -> 1000
+   !important -> gana a todo  
+   
+   Orden para resolver el problemas de estilos
+   important -> especificidad -> cascada
+*/
+
+#parrafo{
+    color:violet;
+}
+
+.parrafo{
+    color: red;
+}
+
+a{
+    color: inherit;
+}
+
+p{
+    color: green ;
+}
+
+/* 
+Esto es un !important que pesa mas que los demas important = importante
+p{
+    color: green  !important;
+} */

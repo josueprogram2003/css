@@ -1,0 +1,10 @@
+/* Padding = relleno */
+.square{
+    /* Tengo un cuadrado de 100 x 100 de color rojo cuando le pongo padding de 20 px signnifica que le estoy agregando 20 px mas y el border tambien le agrega 5 px mas  ysi quiereo que siga teniendo el tamaño de 100x 100 necesito usar esto box-sizing: border-box que reduce y calcula todo al estado normal del width y height*/
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    background: red;
+    box-sizing: border-box;
+}

@@ -1,0 +1,73 @@
+/* .link:link{
+    color: red;
+}
+
+.link:visited{
+    color: blueviolet;
+}
+
+.link:active{
+    color: cyan;
+    background: red;
+} */
+
+/* .button{
+    text-decoration: none;
+    display: inline-block;
+    background: red;
+    padding: .5em;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.button:active{
+  transform: scale(.8);  
+}
+
+.title:hover{
+    color: blueviolet;
+}
+
+.input:focus{
+    background: green;
+}
+
+.button:hover{
+    color: red;
+    background: white;
+    border: 1px solid red;
+    border-radius: 10px;
+} */
+
+/* .menu{
+    background: lightblue;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}*/
+
+/* .text{
+    margin-top: 500px;
+    margin-bottom: 500px;
+} */
+
+ .text:target{
+    padding-top: 55px;
+}  
+
+.span{
+    display: block;
+}
+
+.span:lang(en){
+    color: red;
+}
+
+.span:lang(es){
+    color: blue;
+}

@@ -1,0 +1,21 @@
+.slide{
+    text-align: center;
+    font-size: 3em;
+    height: 300px;
+    background: gray;
+    line-height: 6em ;
+}
+
+
+.menu{
+    background: darkcyan;
+    padding: .5em;
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    position: sticky;
+    top: 20px;
+}
+.title{
+    margin: 0;
+}

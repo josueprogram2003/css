@@ -1,0 +1,47 @@
+.input, .label{
+    display: block;
+    margin: 5px;
+}
+
+/* Enabled: Habilitada */
+
+.input:enabled{
+    background: red;
+}
+
+/* Disabled: Impedido o Discapacitado */
+
+.input:disabled{
+    background: yellow;
+    border: none;
+}
+/* El checked hace el efecto al que esta asociado con el mas */
+
+.input:checked + label {
+    font-size: 2em;
+    background: lime;
+}
+
+.input:in-range{
+    background: green;
+}
+
+.input:out-of-range{
+    background: blue;
+}
+
+.input:optional{
+    background: purple;
+}
+
+.input:required{
+    background: lightgreen;
+}
+
+.input:valid{
+  background: greenyellow;  
+}
+
+.input:invalid{
+    background: red;
+}

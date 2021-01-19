@@ -1,0 +1,48 @@
+.main.title{text-align: center;}
+
+.header{background: lightblue;
+    height: 50px;
+}
+/* main=principal */
+.main{
+    background: lightseagreen;
+    height: 600px;
+}
+
+/* footer= pie de pagina */
+.footer{
+    background: lightsalmon;
+    height: 200px;
+}
+
+/* Forma correcta metodologia bem */
+
+.main-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu__item{
+line-height: 3;
+}
+
+.main-menu__link{
+    text-decoration:  none;
+    font-size: 1.2em;
+    color: green;
+}
+
+/* 
+Forma incorrecta
+nav ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+} */

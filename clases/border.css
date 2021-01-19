@@ -1,0 +1,19 @@
+.box1, .box2{
+    width: 200px;
+    height: 200px;
+    margin: 2em;
+}
+
+.box1{
+    background: darkblue;
+    border: 5px solid red;
+    border-top-width:200px;
+    border-top-color: transparent;
+}
+
+.box2{
+    background: lightslategray;
+    border-left-width: 5px;
+    border-left-style: dotted;
+    border-left-color: black;
+}

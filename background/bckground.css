@@ -1,0 +1,81 @@
+[class ^= "bg-"] {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto ;
+    width: 30%;
+    height: 150px;
+    border: 1px solid red;
+}
+
+body{
+    padding-bottom: 50em;
+    text-align: center;
+}
+
+.bg-color{
+    background-color: purple;
+}
+
+.bg-image{
+    background-image: url(/background/logo.png);
+}
+
+.bg-size{
+    background-image: url(/background/logo.png);
+    /* background-size: 10% 10%; */
+    background-size: contain;
+}
+
+.bg-repeat{
+    background-image: url(/background/logo.png);
+    background-size: 20%;
+    background-repeat: repeat-x;
+}
+
+.bg-position{
+    background-image: url(/background/logo.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Background origin : Redmencina la imagen deacuerdo a los valores que le ponemos
+    Background clip: Recorta la imagen si no entra  en la caja
+*/
+
+.bg-origin{
+    border: 10px dotted red;
+    padding: 25px;
+    background-image: url(/background/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+.bg-clip{
+    color: white;
+    border: 10px dotted red;
+    background-image: url(/background/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+
+.bg-attachment{
+    width: 100%;
+    background-image: url(/background/logo.png);
+    background-size: contain;
+    background-attachment: fixed;
+
+}
+
+.bg-multiple{
+    background-image: url(/background/cerrar-sesion.png),
+    url(/background/fondo.jpg);
+
+    /* background-size: contain; */
+    background-size: 30%, cover ;
+    background-repeat: no-repeat;
+    background-position: bottom right, center;
+    background-attachment: scroll, fixed;
+}

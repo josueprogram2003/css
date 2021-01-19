@@ -1,0 +1,61 @@
+/* Por especificidad root tiene mas peso que html */
+
+/* .paragraph{
+    padding: .5em;
+    background: lightblue;
+} */
+
+/* .paragraph:empty{
+    padding: 0;
+} */
+
+/* .paragraph:first-child{
+    background: red;
+}
+
+.paragraph:last-child{
+    background: blue;
+} */
+
+/* .paragraph:nth-child(odd){
+    background: lightsalmon;
+    Eso es para los impares
+} */
+
+/* .paragraph:nth-child(even){
+    background: lightsalmon;
+}  Es para los pares
+*/
+
+/* .paragraph:nth-child(3n+1){ /* Primero n vale 0 luego 1 hasta que no halla mas valores en la pantalla
+    background: darkgoldenrod;
+} */
+
+/* .paragraph:nth-last-child(4){
+background: lime;
+} */
+/* 
+.paragraph:only-child{
+    background: lightseagreen;
+} */
+/* Selecciona el tecer hijo de todo que tenga la clase paragraph */
+/* .paragraph:nth-child(3){
+    background: red;
+}
+
+.paragraph:nth-of-type(1){
+background: gray;
+} */
+
+/* .paragraph:not(div){
+    background: green;
+} */
+
+/* .paragraph:not(p){
+    background: green;
+} */
+
+
+
+
+
