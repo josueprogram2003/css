@@ -1,11 +1,28 @@
+/* :root{
+    font-size: 30px;
+} */
+
+body{
+    font-size: 30px;
+}
 .title{
     /* font-family: cursive; */
     /* font-family: sans-serif; */
     /* font-family: monospace; */
     font-family: 'Courier New', Courier, monospace;
+    /* font-size: 2em; */
+    /* font-size: 10vmax; */
+    font-size: 10vmin;
+}
+
+.span{
+    /* font-size: 100%; */
 }
 
 .paragraph{
     /* font-family: monospace; */
-
+    font-weight: normal;
+    font-style: unset;
 }
+
+
