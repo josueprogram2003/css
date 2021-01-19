@@ -2,4 +2,40 @@
 .title{
     /* text-transform: lowercase; */
     text-transform: uppercase;
+    text-align: center;
 }
+
+
+/* Solo se puede centrar en elementos de bloque */
+.paragraph{
+    /* text-align: right; */
+    /* text-align: justify; */
+    /* text-align: center; */
+    /* text-indent: 50px; */
+}
+
+.link{
+    /* Overline = sobre la linea
+        Underline = debajo de la line
+    */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    text-decoration: none;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.box__item{
+    line-height: 100px;
+    text-align: center;
+}
+
+.paragraph{
+    letter-spacing: 10px;
+}
+
+
