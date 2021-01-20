@@ -1,0 +1,33 @@
+/* .table{
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+    border: 1px solid red;
+} */
+
+.table, 
+.table__data, 
+.table__head{
+    /* border-spacing: 10px; */
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+}
+
+/* .table__data{
+    border: 1px solid black;
+    border-spacing: 10px;
+} */
+
+.table{
+    font-size: 30px;
+    width: 100%;
+    empty-cells: hide;
+}
+
+.table__data{
+    background-color: lightblue;
+}
+
+.table__conteiner{
+    overflow-x: auto;
+}

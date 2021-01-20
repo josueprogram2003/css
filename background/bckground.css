@@ -36,7 +36,7 @@ body{
     background-image: url(/background/logo.png);
     background-size: 20%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 0 0;
 }
 
 /* Background origin : Redmencina la imagen deacuerdo a los valores que le ponemos
