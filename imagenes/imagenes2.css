@@ -1,0 +1,65 @@
+/* object-fit: fill; */
+/* object-fit: none; */
+/* object-fit: contain; */
+/* object-fit: scale-down; */
+/* .img{
+    width: 250px;
+    height: 400px;
+    background-color: red;
+    object-fit: cover;
+
+    object-position: left;
+
+     transition: object-position 3s; 
+
+
+} */
+
+ /* .img:hover{
+    object-position: right;
+} */
+
+/* Con filter blur = difuminar*/
+
+/* .img-2{
+    max-width: 100%;
+    filter: blur(5px);
+} 
+
+.img-2:hover{
+    filter: none;
+} */
+
+/* Con filter brightness = brillo*/
+
+/* .img-2{
+    max-width: 100%;
+    filter: brightness(3);
+    filter: brightness(.2);
+} 
+
+.img-2:hover{
+    filter: none;
+} */
+
+    /* Con filter Contrast = contraste
+    Drop-Shadow = shadow=sombra dop=soltar
+    hue-rotate = se hace deacuerdo ala rueda cromatica
+    hue=matiz rotate=girar
+    saturate = saturar
+    */
+
+    .img-2{
+        max-width: 100%;
+        /* filter: contrast(2); */
+        /* filter: drop-shadow(10px 10px 5px black); */
+        /* filter: grayscale(1); */
+        /* filter: hue-rotate(90deg); */
+        /* filter: invert(1); */
+        /* filter: opacity(0); */
+        /* filter: saturate(0); */
+        filter: sepia(1);
+    } 
+    .img-2:hover{
+        filter: none;
+    }

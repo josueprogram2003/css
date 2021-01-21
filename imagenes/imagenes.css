@@ -1,0 +1,42 @@
+/* .img{
+    max-width: 100%;
+} */
+
+/* El uso de line height es muy sugestivo(interesante)*/
+/* .img{ */
+    /* max-width: 100%; */
+    /* display: block; */
+    /* margin: auto; */
+    /* margin-left: auto;
+    margin-right: auto; */
+
+/* }
+.img-container{
+    text-align: center;
+    background-color: lavender;   
+    line-height: 0;
+    border: 2px solid black;
+} */
+
+/* Forma antigua de centrar ahora se usa flexbox */
+
+.img-container img,
+.img-container span{
+    vertical-align: middle;
+}
+
+.img-container{
+    display: table;
+}
+
+.img-container span,
+.img-container p{
+    display: table-cell;
+}
+
+
+/* Forma de centrar con flex */
+/* .img-container{
+    display: flex;
+    align-items: center;
+} */

@@ -26,12 +26,15 @@
 .box{
     width: 100px;
     height: 100px;
-    background-color: red;
+    /* background-color: red; */
+    border: 1px solid blue;
 }
 
 .box__item{
     line-height: 100px;
     text-align: center;
+    background-color: yellow;
+    border: 1px solid black;
 }
 
 .paragraph{
