@@ -1,0 +1,88 @@
+
+/* .flex-container{
+    background-color: #FCA17D;
+    height: 400px;
+    margin-bottom: 1em;
+    flex-wrap: wrap; */
+    /* Para el main-axis */
+    /* vALOR POR DEFECTO */
+    /* justify-content: flex-start; */
+
+    /* justify-content: center; */
+
+    /* justify-content: space-between; */
+
+    /* justify-content: space-around; */
+
+    /* justify-content: space-evenly; */
+
+    /* display: inline-flex; */
+
+    /* Para el cross axis */
+    
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: stretch; */
+
+    /* align-items: flex-end; */
+
+    /* display: flex;
+    align-content: flex-start; */
+    /* Va de izquierda a derecha */
+    /* flex-direction: row; */
+
+    /* Va de derecha a Izquierda */
+    /* flex-direction: row-reverse; */
+
+    /* Modifica los ejes foto en la carpeta css */
+    /* flex-direction: column; */
+
+    /* Se pone al revez */
+    /* flex-direction: column-reverse; */
+    
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse ; */
+/* } */
+
+/* .flex-item{
+    width: 50px;
+    height: 50px;
+    margin: .5em ;
+    background-color: purple;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+} */
+
+/* .box{
+    border: 1px solid black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.box img{
+    max-width: 50%;
+} */
+
+.prices{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    align-items: baseline;
+}
+.prices__item{
+    border: 1px solid black;
+    width: 25%;
+    /* padding: 1em; */
+}
+
+.prices__item:first-child,.prices__item:nth-child(2),.prices__item:nth-child(3),.prices__item:last-child{
+    padding: 1em;
+}
+
+.prices__title{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
