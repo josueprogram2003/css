@@ -1,0 +1,19 @@
+/* .article{
+    border:  1px solid blue;
+    padding: .5em;
+    height:  100px;
+    overflow: hidden;
+    /* overflow: auto; 
+} */
+
+
+.article-float{
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.article-float img{
+    max-width: 50%;
+    float:  right;
+    margin-left: .5em;
+}
