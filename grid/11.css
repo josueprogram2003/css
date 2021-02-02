@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: #eee;
+    font-family: sans-serif;
+    background-image: radial-gradient(circle, #b94bf8, #3a1957);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.grid-container{
+    display: grid;
+    grid-template: 100px 150px 150px/ 100px 300px  150px;
+    /* grid-template: 
+    "first first first" 100px
+    "center center center" 200px
+    "last . ." 150px /
+    300px 250px
+    ; */
+}
+
+.grid-item{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    color: #000;
+}
+
+
+.grid-item:first-child,.grid-item:nth-child(2)
+, .grid-item:nth-child(3){
+    /* Eso es un grid track*/
+    background-color: limegreen;
+}
