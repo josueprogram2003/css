@@ -1,7 +1,7 @@
 body{
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     color: #eee;
     font-family: sans-serif;
     background-image: radial-gradient(circle, #b94bf8, #3a1957);
@@ -13,19 +13,31 @@ body{
 
 
 .grid-container{
+    /* overflow: hidden; */
+    border: 2px solid red;
     display: grid;
+    
+    grid-template-columns: repeat(auto-fit ,minmax(50px, 1fr));
     /* grid-template-columns: 70px; */
     /* grid-template-columns: 100px 100px auto 100px; */
      /* grid-template-columns: 100px 100px  100px; */
-     grid-template-columns: repeat(5, 50px);
-     grid-template-rows: repeat(2,50px );
-     /* grid-auto-columns: 200px; */
-     grid-auto-flow: row dense;
+     
+     /* grid-template-columns: repeat(auto-fill ,minmax(50px, 1fr)); */
+     
+
+     /* Con auto fill los elementos mantienen el mismo tamaño y con auto-fit los elementos cambian de  tamaño */
+
+
+     /* grid-template-rows: repeat(auto-fill ,50px ); */
+     /* grid-auto-columns: 100px;
+     grid-auto-rows: 100px;
+     grid-auto-flow: dense; */
+     /* gap: 2px; */
      /* grid-template-columns: repeat(3,100px); */
      /* grid-template-columns: repeat(3,50px); */
      /* grid-template-columns: 50px repeat(3,100px) 50px; */
 
-     grid-template-columns: repeat(3, minmax(70px, 1fr));
+     /* grid-template-columns: repeat(3, minmax(70px, 1fr)); */
 }
 
 
@@ -38,7 +50,7 @@ body{
     font-size: 1rem;
 }
 
-.grid-item:nth-child(2){
+/* .grid-item:nth-child(2){
     grid-column: span 3;
     grid-row: 2/4;
     background: purple;
@@ -58,4 +70,4 @@ body{
     grid-column: span 3;
     grid-row: span 3;
     background: royalblue;
-}
+} */

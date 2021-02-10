@@ -21,9 +21,10 @@ body{
 }
 
 .bg-size{
+    border: 1px solid orange;
     background-image: url(/background/logo.png);
     /* background-size: 10% 10%; */
-    background-size: contain;
+    background-size: cover;
 }
 
 .bg-repeat{
@@ -62,9 +63,10 @@ body{
 }
 
 .bg-attachment{
+    border: 1px solid gray;
     width: 100%;
     background-image: url(/background/logo.png);
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
 
 }
