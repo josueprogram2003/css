@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "section section section"
+    "section section section"
+    "section section section"
+    "footer footer footer";
+    font-size: 16px;
+}
+
+/* Diseño Header  */
+
+.header{
+    grid-area: header;
+    /* border: 1px solid red; */
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,hsla(356, 53%, 50%, 0.301), hsla(280, 70%, 64%, 0.733), hsla(191, 89%, 45%, 0.842)), url(/web/img/portada.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c82a354b, #c471ed86, hsla(191, 86%, 49%, 0.589)), url(/web/img/portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    position: relative;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+    text-shadow: 2px 2px 0 lightblue;
+}
+
+.menu{
+    /* border: 1px solid greenyellow; */
+    margin-right: 25px;
+    margin-top: 4px;
+    text-align: right;
+}
+
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+} 
+
+.link:hover{
+    text-decoration: underline;
+}
+
+/* Contenido Main */
+
+.section{
+    border: 1px solid greenyellow;
+    grid-area: section;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.subtitle{
+    text-align: center;
+    margin-bottom: 0.7rem;
+    font-size: 30px;
+}
+
+.paragraph{
+    margin-bottom: 2rem;
+}
+
+
+
+.container__img img{
+    width: 50%;
+    box-shadow: 1px 1px 5px 5px lightseagreen ; 
+}
+
+.container__img{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid greenyellow; */
+    width: 100%;
+}
+
+/* Actores */
+
+.container__image{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.image{
+    margin: 5px;
+}
+
+.image img{
+    /* width: 100%; */
+    max-width: 100%;
+    height: 14rem;
+} 
+
+.subtitle__image{
+    text-align: center;
+}
+.footer{
+    grid-area: footer;
+    padding: 2rem;
+}
